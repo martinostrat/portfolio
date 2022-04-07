@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+/* Header section */
+.main-header-seciton {
+    height: 100vh;
+    border-radius: 0;
+    background-color: #060618;
+    background-color: #060618;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23060618' width='11' height='11'/%3E%3Crect fill='%230a091b' x='10' width='11' height='11'/%3E%3Crect fill='%230e0c1e' y='10' width='11' height='11'/%3E%3Crect fill='%23110e22' x='20' width='11' height='11'/%3E%3Crect fill='%23131125' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23161328' y='20' width='11' height='11'/%3E%3Crect fill='%2319142b' x='30' width='11' height='11'/%3E%3Crect fill='%231c152f' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%231f1732' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23231835' y='30' width='11' height='11'/%3E%3Crect fill='%23261938' x='40' width='11' height='11'/%3E%3Crect fill='%232a1a3b' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%232e1b3d' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23321c40' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23371d43' y='40' width='11' height='11'/%3E%3Crect fill='%233b1d45' x='50' width='11' height='11'/%3E%3Crect fill='%23401e48' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23441f4a' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23491f4c' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%234e204e' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23532050' y='50' width='11' height='11'/%3E%3Crect fill='%23582052' x='60' width='11' height='11'/%3E%3Crect fill='%235d2053' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23622055' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23672056' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%236c2057' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23712058' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23772059' x='70' width='11' height='11'/%3E%3Crect fill='%237c205a' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23811f5a' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23861f5b' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%238c1f5b' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23911e5b' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23961e5b' x='80' width='11' height='11'/%3E%3Crect fill='%239b1e5b' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23a11d5a' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23a61d5a' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23ab1d59' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23b01d58' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23b51d57' x='90' width='11' height='11'/%3E%3Crect fill='%23ba1e56' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23be1f55' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23c32054' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23c82152' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23cc2250' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23d1244f' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23d5264d' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23d9294b' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23dd2c48' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e12e46' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e53243' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e83541' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23ec383e' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23ef3c3b' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23f24037' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23f54434' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23f84830' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23fa4c2c' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23fd5127' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23FF5522' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/* Animation */
+
+.animation-wrapper {
+    width: 50%;
+    padding-bottom: 50%;
+    margin-top: 50px;
+  }
+  
+  .sphere-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 580px;
+    height: 580px;
+    margin: -290px 0 0 -290px;
+  }
+  
+  .sphere path {
+    fill: url(#sphereGradient);
+    stroke-width: 1px;
+    stroke: rgba(80,80,80,.35);
+    backface-visibility: hidden;
+  }
+  
+  @media (min-width: 500px) {
+    .sphere path {
+      stroke-width: .4px;
+    }
+  }
+
+/* Navbar */
+
+.main-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: transparent;
+    padding-bottom: 3rem;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.nav-link {
+    color: #CD1313;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+/* Bio section */
+
+.bio-section {}
+
+.bio-section-row {
+    margin: 80px 0 80px 0;
+}
+
+.bio-section-img {
+    height: 200px;
+}
+
+.bio-section-text {
+    margin: auto;
+    text-align: center;
+}
+
+/* Projects section */
+
+.proj-section {
+    background-color: #4F759B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.proj-header-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.projects-1st-row {
+    margin-top: 70px;
+}
+
+.projects-2nd-row {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* Tech section */
+
+.tech-section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.tech-header-text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.tech-section-row {
+    margin: 50px 0;
+}
+
+/* Kontakt section */
+
+.kontakt-section {
+    background-color: #4F759B;
+    padding-bottom: 70px;
+}
+
+#success-message {
+    opacity: 0;
+  }
+  
+  .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding: 0 20% 0 20%;
+  }
+  
+  .margin-top-25 {
+    margin-top: 25px;
+  }
+  
+  .form-title {
+    padding: 25px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+  }
+  
+  .form-group .form-control {
+    -webkit-box-shadow: none;
+    border-bottom: 1px;
+    border-style: none none solid none;
+    border-radius:0; 
+    border-color: #000;
+  }
+  
+  .form-group .form-control:focus {
+      box-shadow: none;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .btn-mod.btn-large {
+      height: auto;
+      padding: 13px 52px;
+      font-size: 15px;
+  }
+  
+  .btn-mod.btn-border {
+      color: #000000;
+      border: 1px solid #000000;
+      background: transparent;
+  }
+  
+  .btn-mod, a.btn-mod {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 4px 13px;
+      color: #fff;
+      background: rgba(34,34,34, .9);
+      border: 1px solid transparent;
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+      transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  }
+  
+  .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+      color: #fff;
+      border-color: #000;
+      background: #000;
+      outline: none;
+  }
+  
+  @media only screen and (max-width: 500px) {
+      .btn-mod.btn-large {
+         padding: 6px 16px;
+         font-size: 11px;
+      }
+    
+      .form-title {
+          font-size: 20px;
+    }
+  }
+  
